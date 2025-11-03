@@ -1,3 +1,7 @@
-#A Digital Humanities Approach to Characterizing Murderers in Agatha Christie’s Detective Novels
-
-
+## This repository includes the data used for the master thesis: "A Digital Humanities Approach to Characterizing Murderers in Agatha Christie’s Detective Novels"
+##The content of this github repository includes following data structure:
+### primary literature: eight selected novels by Agatha Christie
+### visualizations of social network analysis using Gephi 
+### barplot of speech/appearance rate using R, with the code in R.data format
+### visualization of the results of sentiment analysis and linguistic representation
+### t-sne visualiaztions of the murderers in these eight novels
