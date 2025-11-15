@@ -1,0 +1,79 @@
+"source","negative","positive","neg_positive","neg_negative"
+"accepted",0,1,0,0
+"said",0,0,0,0
+"admiringly",0,1,0,0
+"apologetically",0,1,0,0
+"coldly",1,0,0,0
+"firmly",0,1,0,0
+"decisively",0,1,0,0
+"gently",0,1,0,0
+"honestly",0,1,0,0
+"indulgently",0,1,0,0
+"meditatively",0,0,0,0
+"unexpectedly",0,0,0,0
+"unkindly",1,0,0,0
+"softly",0,0,0,0
+"surprised",0,0,0,0
+"thoughtfully",0,1,0,0
+"reproving",0,0,0,0
+"regretfully",1,0,0,0
+"reflectively",0,0,0,0
+"slowly",0,0,0,0
+"remain",0,0,0,0
+"sitting thoughtfully",0,1,0,0
+"replied",0,0,0,0
+"demanded",0,0,0,0
+"surprised",0,0,0,0
+"admonished",1,0,0,0
+"asked",0,0,0,0
+"sternly",1,0,0,0
+"with interest",0,0,0,0
+"assured",0,1,0,0
+"averted",1,0,0,0
+"enjoyed",0,1,0,0
+"her breakfast",0,0,0,0
+"broke in",1,0,0,0
+"incisively",0,0,0,0
+"called",0,0,0,0
+"in a high clear voice",0,0,0,0
+"after him",0,0,0,0
+"clicked",0,0,0,0
+"considered",0,0,0,0
+"contemplated",0,0,0,0
+"corrected",0,1,0,0
+"gently",0,1,0,0
+"cut off",0,0,0,0
+"dismissed",1,0,0,0
+"dressed",0,0,0,0
+"drew a deep breath",0,0,0,0
+"estimated",0,0,0,0
+"agreed",0,1,0,0
+"fervently",0,0,0,0
+"fluttered",1,0,0,0
+"followed",0,0,0,0
+"frowned",1,0,0,0
+"exclaimed",0,0,0,0
+"ensconced",0,0,0,0
+"remove",0,0,0,0
+"quietly",0,1,0,0
+"murmured",0,0,0,0
+"modestly",0,1,0,0
+"nodded",0,0,0,0
+"appreciatively",0,1,0,0
+"gently",0,1,0,0
+"objected",0,0,0,0
+"twinkled",0,0,0,0
+"very slightly",0,0,0,0
+"uttered",0,0,0,0
+"a sharp exclamation of annoyance",1,0,0,0
+"visualized",0,0,0,0
+"patient",0,0,0,0
+"sounded",0,0,0,0
+"alert",0,0,0,0
+"showed",0,0,0,0
+"spoke",0,0,0,0
+"stared",0,0,0,0
+"thanked",0,1,0,0
+"started",0,0,0,0
+"immediately",0,0,0,0
+"agreeable",0,1,0,0
