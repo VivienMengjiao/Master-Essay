@@ -1,10 +1,35 @@
-## This repository includes the data used and the initiated visualizations in the master thesis: "A Digital Humanities Approach to Characterizing Murderers in Agatha Christie’s Detective Novels". 
-## This thesis argues that the results from distant reading aligns with  Agatha Christie's conception of murderers in previous researches(through close reading) and her moderate feminism.
-## The content of this github repository includes following data structure:
-### primary literature: eight selected novels by Agatha Christie
-### visualizations of social network analysis using Gephi 
-### barplot of speech/appearance rate using R, with the code in R.data format
-### Modifiers of murderers and detectives
-### sentiment scores in csv data format, visualization of sentiment networks 
-### linguistic representation
-### t-sne visualiaztions of the murderers in these eight novels
+# A Digital Humanities Approach to Characterizing Murderers in Agatha Christie’s Detective Novels
+
+This repository includes the data used and the visualizations created for the master thesis: 
+
+**"A Digital Humanities Approach to Characterizing Murderers in Agatha Christie’s Detective Novels."**
+
+The thesis argues that the results from distant reading align with Agatha Christie's conception of murderers found in previous research (through close reading) and reflect her moderate feminism.
+
+## Repository Content
+
+The content of this GitHub repository is organized as follows:
+
+### 1. Primary Literature
+- Eight selected novels by Agatha Christie
+
+### 2. Visualizations
+- Social network analysis visualizations created using **Gephi**  
+- Bar plots of speech/appearance rates using **R**, with code in `R.data` format
+
+### 3. Character Modifiers
+- Modifiers of murderers and detectives
+
+### 4. Sentiment Analysis
+- Sentiment scores in **CSV** format  
+- Visualizations of sentiment networks
+
+### 5. Linguistic Representations
+- Linguistic representation data
+
+### 6. t-SNE Visualizations
+- t-SNE visualizations of the murderers in these eight novels
+
+---
+
+
