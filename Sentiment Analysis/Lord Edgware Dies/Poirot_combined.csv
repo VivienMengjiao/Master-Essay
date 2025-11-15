@@ -1,0 +1,161 @@
+"source","negative","positive","neg_positive","neg_negative"
+"said",0,0,0,0
+"absently",1,0,0,0
+"blandly",1,0,0,0
+"calmly",0,1,0,0
+"cautiously",0,1,0,0
+"decisively",0,1,0,0
+"dreamily",0,0,0,0
+"dryly",0,0,0,0
+"evenly",0,0,0,0
+"eagerly",0,1,0,0
+"encouragingly",0,1,0,0
+"genially",0,1,0,0
+"gently",0,1,0,0
+"gravely",1,0,0,0
+"smoothingly",0,0,0,0
+"sympathetically",0,1,0,0
+"quietly",0,1,0,0
+"quite undisturbed",0,0,0,0
+"simply",0,0,0,0
+"softly",0,0,0,0
+"kindly",0,1,0,0
+"meditatively",0,0,0,0
+"managed",0,0,0,0
+"sighed",1,0,0,0
+"listened",0,0,0,0
+"with attention and sympathy",0,1,0,0
+"deeply",0,0,0,0
+"raised",0,0,0,0
+"a deprecating hand",1,0,0,0
+"his eyebrow quizzically",0,0,0,0
+"rang up",0,0,0,0
+"read",0,0,0,0
+"recovered",0,1,0,0
+"refused",1,0,0,0
+"related",0,0,0,0
+"remained",0,0,0,0
+"quite serious",0,0,0,0
+"thanked",0,1,0,0
+"mentions",0,0,0,0
+"nodded",0,0,0,0
+"approvingly",0,1,0,0
+"sympathetically",0,1,0,0
+"thoughtfully",0,1,0,0
+"noted",0,0,0,0
+"offered",0,0,0,0
+"opened",0,1,0,0
+"paid no attention",0,0,0,0
+"paused",0,0,0,0
+"promised",0,0,0,0
+"cautiously",0,1,0,0
+"picked up",0,0,0,0
+"placidly content",0,1,0,0
+"greeted",0,1,0,0
+"grudged",1,0,0,0
+"hailed",0,0,0,0
+"a taxi",0,0,0,0
+"held up",0,0,0,0
+"enjoyed",0,1,0,0
+"remarked",0,0,0,0
+"dryly",0,0,0,0
+"chuckled",0,1,0,0
+"acknowledged ",0,0,0,0
+"the compliment ",0,1,0,0
+"coldly",1,0,0,0
+"adopted",0,1,0,0
+"inert attitude",0,0,0,0
+"agreed",0,1,0,0
+"dryly",0,0,0,0
+"began",0,0,0,0
+"apologetically",0,1,0,0
+"shake with laughter",1,0,0,0
+"declined",0,0,0,0
+"accepted",0,1,0,0
+"an offer",0,0,0,0
+"directed",0,0,0,0
+"demanded",0,0,0,0
+"eagerly",0,1,0,0
+"stand",0,0,0,0
+"arose",0,0,0,0
+"asked",0,0,0,0
+"casually",0,1,0,0
+"gently",0,1,0,0
+"quickly",0,0,0,0
+"beamed",0,0,0,0
+"came forward",0,1,0,0
+"caressed",0,1,0,0
+"surrepitiously",0,0,0,0
+"clicked",0,0,0,0
+"his tongue",0,0,0,0
+"closed",0,0,0,0
+"the case",0,0,0,0
+"cleared",0,1,0,0
+"his throat",0,0,0,0
+"bent over",0,0,0,0
+"bowed",0,0,0,0
+"brought forward ",0,1,0,0
+"bustled forward",0,1,0,0
+"replied",0,0,0,0
+"composedly",0,0,0,0
+"with a smile",0,1,0,0
+"in the negative",1,0,0,0
+"retrieved",0,0,0,0
+"rose",0,0,0,0
+"considered",0,0,0,0
+"thoughtfully",0,1,0,0
+"continued",0,0,0,0
+"dreamily",0,0,0,0
+"shake his head",1,0,0,0
+"controlled",0,0,0,0
+"examined",0,0,0,0
+"with interest",0,0,0,0
+"expatiated",0,0,0,0
+"explained",0,0,0,0
+"muttered",1,0,0,0
+"felt ",0,0,0,0
+"astonishment",0,0,0,0
+"flew off",0,0,0,0
+"flung across",0,0,0,0
+"folded back",0,0,0,0
+"frowned",1,0,0,0
+"gave up",0,0,0,0
+"gazed",0,0,0,0
+"mildly",0,1,0,0
+"sadly",1,0,0,0
+"hesitated",1,0,0,0
+"hurried up",0,0,0,0
+"sat down",0,0,0,0
+"sat up",0,0,0,0
+"immediatly",0,0,0,0
+"immediatly",0,0,0,0
+"waved",0,0,0,0
+"wore",0,0,0,0
+"a puzzled expresson",1,0,0,0
+"watched",0,0,0,0
+"intently",0,0,0,0
+"walked",0,0,0,0
+"uttered",0,0,0,0
+"a low cry",1,0,0,0
+"threw",0,0,0,0
+"his head back",0,0,0,0
+"a glance of reproof",0,0,0,0
+"swallowed",0,0,0,0
+"suggested",0,0,0,0
+"stared",0,0,0,0
+"stepped forward",0,1,0,0
+"sprang out",0,0,0,0
+"spoke",0,0,0,0
+"almost humbly",0,0,0,0
+"stuck",0,0,0,0
+"smiled",0,1,0,0
+"affectionately",0,1,0,0
+"forgivingly",0,1,0,0
+"leaned against",1,0,0,0
+"laughed",0,0,0,0
+"gently",0,1,0,0
+"laid down",0,0,0,0
+"looked modest",0,1,0,0
+"looked affronted",1,0,0,0
+"intimated",0,1,0,0
+"indicated",0,0,0,0
