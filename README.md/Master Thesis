@@ -4,5 +4,7 @@
 ### primary literature: eight selected novels by Agatha Christie
 ### visualizations of social network analysis using Gephi 
 ### barplot of speech/appearance rate using R, with the code in R.data format
-### visualization of the results of sentiment analysis and linguistic representation
+### Modifiers of murderers and detectives
+### sentiment scores in csv data format, visualization of sentiment networks 
+### linguistic representation
 ### t-sne visualiaztions of the murderers in these eight novels
