@@ -13,21 +13,23 @@ The content of this GitHub repository is organized as follows:
 ### 1. Primary Literature
 - Eight selected novels by Agatha Christie
 
-### 2. Visualizations
-- Social network analysis visualizations created using **Gephi**  
-- Bar plots of speech/appearance rates using **R**, with code in 'R.data' format
+### 2. Visualizations of SNA 
+- Social network analysis visualizations created using **Gephi**
 
-### 3. Character Modifiers
+### 3. Bar plots of speech/appearance rates using **R**, with code in 'R.data' format
+
+### 4. Character Modifiers
 - Modifiers of murderers and detectives
 
-### 4. Sentiment Analysis
+### 5. Sentiment Analysis
 - Sentiment scores in **CSV** format  
 - Visualizations of sentiment networks
 
-### 5. Linguistic Representations
+### 6. Linguistic Representations
 - Linguistic representation data
+- Visualizations of linguistic representation
 
-### 6. t-SNE Visualizations
+### 7. t-SNE Visualizations
 - combination of all 8 novels with the names of target characters standardized
 - t-SNE visualizations of the murderers in these eight novels
 
