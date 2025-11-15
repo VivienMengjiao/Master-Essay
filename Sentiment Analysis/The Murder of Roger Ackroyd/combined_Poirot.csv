@@ -1,0 +1,104 @@
+"source","negative","positive","neg_positive","neg_negative"
+"replied",0,0,0,0
+"seriously",0,0,0,0
+"gravely",1,0,0,0
+"admitted",0,1,0,0
+"agreed",0,1,0,0
+"prophesy",0,0,0,0
+"asked",0,0,0,0
+"cried",1,0,0,0
+"commanded",0,0,0,0
+"declared",0,0,0,0
+"inquired",0,0,0,0
+"interpolated",0,0,0,0
+"quickly",0,0,0,0
+"rapped",0,0,0,0
+"gently",0,1,0,0
+"interrupted",1,0,0,0
+"said",0,0,0,0
+"softly",0,0,0,0
+"interrupting",1,0,0,0
+"kindly",0,1,0,0
+"meditatively",0,0,0,0
+"mildly",0,1,0,0
+"slightly embarrassed",1,0,0,0
+"pityingly",1,0,0,0
+"placidly",0,1,0,0
+"regretfully",1,0,0,0
+"shortly",0,0,0,0
+"pleasantly",0,1,0,0
+"apologetically",0,1,0,0
+"dryly",0,0,0,0
+"spoke",0,0,0,0
+"mildly",0,1,0,0
+"primly",0,0,0,0
+"quietly",0,1,0,0
+"rapidly",0,0,0,0
+"soothingly",0,1,0,0
+"sternly",1,0,0,0
+"thoughtfully",0,1,0,0
+"thought",0,0,0,0
+"stopped",0,0,0,0
+"removed",0,0,0,0
+"rapped out",0,0,0,0
+"suddenly",0,0,0,0
+"read",0,0,0,0
+"repeated",0,0,0,0
+"raised",0,0,0,0
+"eyebrows",0,0,0,0
+"a hand",0,0,0,0
+"protesingly",0,0,0,0
+"nodded",0,0,0,0
+"approval",0,1,0,0
+"energetically",0,1,0,0
+"approvingly",0,1,0,0
+"remarked",0,0,0,0
+"nonchalantly",1,0,0,0
+"sat down",0,0,0,0
+"sat upright",0,1,0,0
+"smiled",0,1,0,0
+"admiringly",0,1,0,0
+"indulgently",0,1,0,0
+"shrugged",0,0,0,0
+"shook",0,0,0,0
+"his head",0,0,0,0
+"laughed",0,0,0,0
+"leaned forward",0,1,0,0
+"put in",0,0,0,0
+"neatly",0,1,0,0
+"rose",0,0,0,0
+"bowed",0,0,0,0
+"right",0,1,0,0
+"wise man",0,1,0,0
+"lingered",0,0,0,0
+"listened",0,0,0,0
+"carefully",0,1,0,0
+"looked at",0,0,0,0
+"attentively",0,0,0,0
+"very gravely",1,0,0,0
+"thoughtfully",0,1,0,0
+"inquiringly",0,0,0,0
+" looked bewildered",1,0,0,0
+"suggested",0,0,0,0
+"smoothly",0,1,0,0
+"solved",0,0,0,0
+"a mystery",0,0,0,0
+"sprang",0,0,0,0
+"stared",0,0,0,0
+"stayed behind",0,0,0,0
+"interposed",0,0,0,0
+"suddenly",0,0,0,0
+"made a diversion",0,0,0,0
+"tactfully",0,1,0,0
+"tossed",0,0,0,0
+"stump of cigarette",0,0,0,0
+"murmured",0,0,0,0
+"nursed",0,0,0,0
+"tenderly",0,1,0,0
+"watched",0,0,0,0
+"keely",0,0,0,0
+"with approval",0,1,0,0
+"expected",0,0,0,0
+"wanted",0,0,0,0
+"arrived",0,0,0,0
+"duly",0,0,0,0
