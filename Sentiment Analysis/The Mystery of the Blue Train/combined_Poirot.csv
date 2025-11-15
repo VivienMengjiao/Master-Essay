@@ -1,0 +1,100 @@
+"source,""negative"",""positive"",""neg_positive"",""neg_negative"""
+agreed,0,1,0,0
+thoughfully,0,0,0,0
+approved,0,1,0,0
+asked,0,0,0,0
+sharply,0,0,0,0
+politely,0,1,0,0
+began,0,0,0,0
+confessed,1,0,0,0
+continued,0,0,0,0
+cried,1,0,0,0
+gaily,0,1,0,0
+declared,0,0,0,0
+gallantly,0,1,0,0
+sharp,0,0,0,0
+decisive,0,1,0,0
+inquired,0,0,0,0
+innocently,0,1,0,0
+interposed,0,0,0,0
+suddenly,0,0,0,0
+murmured,0,0,0,0
+reflectively,0,0,0,0
+softly,0,0,0,0
+with a crestfallen air,0,0,0,0
+mused,0,0,0,0
+objected,0,0,0,0
+addressed,0,0,0,0
+appeared,0,0,0,0
+said,0,0,0,0
+appreciatively,0,1,0,0
+dryly,0,0,0,0
+guardedly,0,0,0,0
+gallantly,0,1,0,0
+encouragingly,0,1,0,0
+genially,0,1,0,0
+gently,0,1,0,0
+gravely,1,0,0,0
+thoughtfully,0,1,0,0
+uncrossed,0,0,0,0
+his knees gently,0,1,0,0
+greeted,0,1,0,0
+foresee,0,0,0,0
+hastened,0,0,0,0
+explain,0,0,0,0
+took the lead,0,0,0,0
+threatened,1,0,0,0
+entered,0,0,0,0
+exquisitely attired,0,1,0,0
+fancied,0,1,0,0
+fidgeted,1,0,0,0
+flung up,0,0,0,0
+unwrapped,0,0,0,0
+seemd restless,1,0,0,0
+arrested,0,0,0,0
+beamed,0,0,0,0
+nodded,0,0,0,0
+galvanized into activity,0,0,0,0
+bent forward,0,1,0,0
+broke,1,0,0,0
+compare,0,0,0,0
+coughed,0,0,0,0
+desires,0,1,0,0
+devote,0,1,0,0
+content,0,0,0,0
+smiled,0,1,0,0
+gently,0,1,0,0
+confidingly,0,0,0,0
+discuss,0,0,0,0
+drew together,0,0,0,0
+drew aside,0,0,0,0
+drew up,0,0,0,0
+his brows ,0,0,0,0
+gave,0,0,0,0
+a sharp exclamation,0,0,0,0
+a little nod of approval,0,1,0,0
+advice,0,0,0,0
+glanced,0,0,0,0
+gazed,0,0,0,0
+complacently,0,1,0,0
+interpolated,0,0,0,0
+gently,0,1,0,0
+introduced,0,0,0,0
+joined,0,1,0,0
+thought,0,0,0,0
+took advantage of ,0,1,0,0
+wagged,0,0,0,0
+an emphatic forefinger,0,1,0,0
+watched,0,0,0,0
+in silence,0,0,0,0
+waved,0,0,0,0
+the apology aside,0,1,0,0
+shrugged,0,0,0,0
+prompted,0,0,0,0
+responded,0,0,0,0
+replied,0,0,0,0
+with insincere_sympathy,1,0,0,0
+suggested,0,0,0,0
+went on,0,0,0,0
+dreamily,0,0,0,0
+volunteered,0,0,0,0
