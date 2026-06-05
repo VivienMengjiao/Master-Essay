@@ -1,1 +1,74 @@
+library(shiny)
+
+
+data <- read.csv("murderers.csv", stringsAsFactors = FALSE)
+
+ui <- fluidPage(
+  titlePanel("Agatha Christie Murderer Analysis"),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(
+        "novel",
+        "Choose a novel:",
+        choices = unique(data$novel)   
+      )
+    ),
+    mainPanel(
+      h3("Name"),
+      textOutput("name"),
+      h3("Role"),
+      textOutput("role"),
+      h3("Network Metrics"),
+      tableOutput("metrics"),
+      h3("Motive"),
+      textOutput("motive"),
+      h3("Method of Killing"),
+      textOutput("killingmethod"),
+      h3("Fate"),
+      textOutput("fate"),
+      h3("Number of Victims"),
+      textOutput("numberOfVictims")
+      
+    )
+  )
+)
+
+server <- function(input, output, session) {
+
+  output$name <- renderText({
+    
+    row <- data[data$novel == input$novel, ]
+    row$name
+  })
+  output$role<-renderText({
+    row<-data[data$novel ==input$novel, ]
+    row$role
+    })
+  
+  output$metrics <- renderTable({
+    row <- data[data$novel == input$novel, ]
+    data.frame(
+      Metric = c("Degree", "Quoted Speeches", "Mention"),
+      Value  = c(row$degree, row$speeches, row$mention)
+    )
+  })
+  output$motive<-renderText({
+    row<-data[data$novel==input$novel, ]
+    row$motive
+  })
+   output$killingmethod<-renderText({
+     row<-data[data$novel==input$novel,]
+     row$KillingMethod
+   })
+   output$fate<-renderText({
+     row<-data[data$novel==input$novel,]
+     row$fate
+    })
+   output$numberOfVictims<-renderText({
+     row<-data[data$novel==input$novel,]
+     row$numberOfVictims
+   })
+}
+shinyApp(ui, server)
+
 
