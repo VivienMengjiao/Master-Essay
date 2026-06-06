@@ -22,6 +22,38 @@ queries = {
             ?m ac:personName ?murdererName .
         }
         ORDER BY ?novelName
+    """,
+   "2)murderers and motives": """
+      PREFIX ac: <http://example.org/agatha/>
+      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+      SELECT ?murdererName ?Motive WHERE{
+            ?m a ac:Murderer;
+               ac:personName ?murdererName;
+               ac:hadMotive  ?motive.
+            
+            ?motive rdfs:label ?Motive.
+        }
+        ORDER BY ?murdererName
+    """,
+    "3)murderers and killingMethod":"""
+      PREFIX ac: <http://example.org/agatha/>
+      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+      SELECT ?murdererName   ?killingMethod WHERE{
+             ?m a ac:Murderer;
+                ac:personName ?murdererName;
+                ac:usedMethod ?method.
+            ?method rdfs:label ?killingMethod.
+    }
+        ORDER BY ?murdererName
+      """,
+    "4)suspect and relationToVictim":"""
+       PREFIX ac: <http://example.org/agatha/>
+       SELECT ?suspect ?relation WHERE{
+              ?s a ac:Suspect;
+                    ac:personName ?suspect;
+                    ac:relationToVictim ?relation.
+    }
+         ORDER BY ?suspect
     """
 }
 
