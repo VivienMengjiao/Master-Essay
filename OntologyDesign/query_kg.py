@@ -1,8 +1,3 @@
-"""
-Load the Agatha Christie knowledge graph and run SPARQL queries.
-Run with:  python query_kg.py
-(needs: pip install rdflib)
-"""
 import rdflib
 from rdflib import Graph
 
@@ -12,8 +7,7 @@ print(f"Loaded {len(g)} triples\n")
 
 queries = {
     "1) novels and murderers": """
-        PREFIX ac: <http://example.org/agatha/>
-
+        
         SELECT ?novelName ?murdererName WHERE {
             ?novel a ac:Novel ;
                    ac:novelName ?novelName ;
@@ -24,8 +18,7 @@ queries = {
         ORDER BY ?novelName
     """,
    "2)murderers and motives": """
-      PREFIX ac: <http://example.org/agatha/>
-      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+      
       SELECT ?murdererName ?Motive WHERE{
             ?m a ac:Murderer;
                ac:personName ?murdererName;
@@ -36,8 +29,7 @@ queries = {
         ORDER BY ?murdererName
     """,
     "3)murderers and killingMethod":"""
-      PREFIX ac: <http://example.org/agatha/>
-      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+      
       SELECT ?murdererName   ?killingMethod WHERE{
              ?m a ac:Murderer;
                 ac:personName ?murdererName;
@@ -46,15 +38,31 @@ queries = {
     }
         ORDER BY ?murdererName
       """,
-    "4)suspect and relationToVictim":"""
-       PREFIX ac: <http://example.org/agatha/>
+    "3)suspect and relationToVictim":"""
+       
        SELECT ?suspect ?relation WHERE{
               ?s a ac:Suspect;
                     ac:personName ?suspect;
                     ac:relationToVictim ?relation.
     }
          ORDER BY ?suspect
-    """
+    """,
+    "4)murderers and theirFate": """
+       SELECT ?murdererName ?fate WHERE{
+       ?m a ac:Murderer;
+            ac:personName ?murdererName;
+            ac:fate ?fate.
+            }
+            ORDER BY ?murdererName
+    """,
+    "5)murderers and quoted speeches": """
+       SELECT ?murdererName ?quotedSpeeches WHERE{
+       ?m a ac:Murderer;
+            ac:personName ?murdererName;
+            ac:quotedSpeeches ?quotedSpeeches.
+            }
+            ORDER BY ?murdererName
+     """
 }
 
 for title, q in queries.items():
