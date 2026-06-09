@@ -5,24 +5,37 @@
 
 
 ac:Person a rdfs:Class .
-ac:Novel  a rdfs:Class .
-ac:Method a rdfs:Class .   # Mordmethode
-ac:Motive a rdfs:Class .   # Motiv
-ac:Stabbing a ac:Method .
-ac:Shooting a ac:Method .
-ac:Strangling a ac:Method.
-ac:Poisoning a ac:Method.
-ac:FalseAlibi a ac:Method .
-ac:Greed a ac:Motive .
-ac:Revenge a ac:Motive.
-ac:AvoidingBlackmail a ac:Motive .
-
-
 ac:Murderer  rdfs:subClassOf ac:Person .   # Murderer is-a Person
 ac:Victim    rdfs:subClassOf ac:Person .
 ac:Detective rdfs:subClassOf ac:Person .
 ac:Suspect   rdfs:subClassOf ac:Person.
-
+ac:Novel  a rdfs:Class .
+ac:Method a rdfs:Class .  
+ac:Stabbing a ac:Method;
+   rdfs:label "Stabbing".
+ac:Shooting a ac:Method;
+   rdfs:label "Shooting".
+ac:Strangling a ac:Method;
+   rdfs:label "Strangling".
+ac:Poisoning a ac:Method;
+   rdfs:label "Poisoning".
+ac:FalseAlibi a ac:Method;
+   rdfs:label "FalseAlibi". # Mordmethode
+ac:Motive a rdfs:Class . 
+ac:Greed a ac:Motive;
+   rdfs:label "Greed".
+ac:Revenge a ac:Motive;
+   rdfs:label "Revenge".
+ac:AvoidingBlackmail a ac:Motive;
+   rdfs:label "AvoidingBlackmail".
+ac:Occupation a rdfs:Class.
+ac:doctor a ac:Occupation.
+ac:secretary a ac:Occupation.
+ac:actress a ac:Occupation.
+ac:judge a ac:Occupation.
+ac:teacher a ac:Occupation.
+ac:houseMaid a ac:Occupation.
+ac:unknown a ac:Occupation.
 
 # Object properties (entity -> entity) — the relational tissue
 ac:hasMurderer  a rdf:Property ; rdfs:domain ac:Novel ;    rdfs:range ac:Murderer .
@@ -31,6 +44,10 @@ ac:hasDetective a rdf:Property ; rdfs:domain ac:Novel ;    rdfs:range ac:Detecti
 ac:murdered     a rdf:Property ; rdfs:domain ac:Murderer ; rdfs:range ac:Victim .
 ac:usedMethod   a rdf:Property ; rdfs:domain ac:Murderer ; rdfs:range ac:Method .
 ac:hadMotive    a rdf:Property ; rdfs:domain ac:Murderer ; rdfs:range ac:Motive .
+ac:hasSuspect   a rdf:Property; rdfs:domain ac:Novel;rdfs:range ac:Suspect.
+ac:hasDegree   a rdf:Property; rdfs:domain ac:Person; rdfs:range xsd:integer.
+ac:hasBetweenessCentrality a rdf:Property;rdfs:domain ac:Person; rdfs:range xsd:integer.
+ac:beenMentioned a rdf:Property; rdfs:domain ac:Person; rdfs:range xsd:integer.
 
 # Datatype properties (entity -> literal value)
 ac:publicationYear a rdf:Property ; rdfs:domain ac:Novel ;  rdfs:range xsd:gYear .
@@ -39,6 +56,8 @@ ac:personName      a rdf:Property ; rdfs:domain ac:Person ; rdfs:range xsd:strin
 ac:novelName       a rdf:Property;  rdfs:domain ac:Novel;   rdfs:range xsd:string.
 ac:quotedSpeeches  a rdf:Property;  rdfs:domain ac:Person; rdfs:range xsd:integer.
 ac:relationToVictim a rdf:Property; rdfs:domain ac:Person; rdfs:range xsd:string.
+ac:fate             a rdf:Property;rdfs:domain ac:Murderer;rdfs:range xsd:string.
+ac:hasOccpuation  a rdf:Property; rdfs:domain ac:Murderer; rdfs:range xsd:string.
 
 
 
@@ -48,7 +67,8 @@ ac:RogerAckroyd a ac:Novel ;
     ac:publicationYear "1926"^^xsd:gYear ;
     ac:hasMurderer  ac:JamesSheppard ;
     ac:hasVictim    ac:RogerAckroydVictim ;
-    ac:hasDetective ac:Poirot .
+    ac:hasDetective ac:Poirot ;
+	ac:hasSuspect ac:RalphPaton.
 	
 ac:Poirot a ac:Detective;
 	ac:personName "Hercule Poirot";
@@ -61,18 +81,22 @@ ac:JamesSheppard a ac:Murderer ;
     ac:murdered   ac:RogerAckroydVictim ;
     ac:usedMethod ac:Stabbing ;
     ac:hadMotive  ac:AvoidingBlackmail ;
-	ac:quotedSpeeches 699.
+	ac:quotedSpeeches 699;
+	ac:fate "suicide";
+	ac:beenMentioned 0;
+	ac:hasOccupation "doctor".
 
 ac:RogerAckroydVictim a ac:Victim ; ac:personName "Roger Ackroyd" ; ac:gender "male" .
 
-ac:RalphPaton a ac:Suspect; ac:personName "Ralph Paton"; ac:gender "male"; ac:relationToVictim "Stepson".
+ac:RalphPaton a ac:Suspect; ac:personName "Ralph Paton"; ac:gender "male"; ac:relationToVictim "Stepson"; ac:beenMentioned 285.
 
 ### The A.B.C. Murders (1936)
 ac:TheABCMurders a ac:Novel;
 	ac:novelName "The A.B.C. Murders";
 	ac:publicationYear "1936"^^xsd:gYear;
 	ac:hasMurderer ac:FranklinClarke;
-	ac:hasVictim ac:AliceAscher,ac:ElizabethBarnard, ac:SirCarmichaelClarke, ac:GeorgeEarlsfield. 
+	ac:hasVictim ac:AliceAscher,ac:ElizabethBarnard, ac:SirCarmichaelClarke, ac:GeorgeEarlsfield;
+	ac:hasSupect ac:AlexanderBonarpaCust.
 ac:Poirot a ac:Detective;
 	ac:personName "Hercule Poirot";
 	ac:gender "male".
@@ -81,29 +105,55 @@ ac:FranklinClarke a ac:Murderer;
 	ac:gender "male";
 	ac:usedMethod ac:Shooting, ac:Strangling, ac:Stabbing;
 	ac:hadMotive ac:Greed;
-	ac:quotedSpeeches 229.
+	ac:quotedSpeeches 229;
+	ac:fate "arrested";
+	ac:beenMentioned 20;
+	ac:hasOccupation "unknown".
 ac:AlexanderBonarpaCust a ac:Suspect;
 	ac:personName "AlexanderBonarpaCust";
 	ac:gender "male";
-	ac:relationToVictim "none".
+	ac:relationToVictim "none";
+	ac:beenMentioned 178.
 
 ###And Then There were None (1939)
 ac:AndThenThereWereNone a ac:Novel;
 	ac:novelName "And Then There were None";
 	ac:publicationYear "1939"^^xsd:gYear;
 	ac:hasMurderer ac:JusticeWargrave;
-	ac:hasVictim ac:VeraClaythorne, ac:PhilipLombard,ac:EmilyBrent,ac:GeneralMacarthur,ac:Rogers, ac:MrsRogers.
+	ac:hasVictim ac:VeraClaythorne, ac:PhilipLombard,ac:EmilyBrent,ac:GeneralMacarthur,ac:Rogers, ac:MrsRogers;
+	ac:hasSuspect ac:DrArmstrong.
 ac:JusticeWargrave a ac:Murderer;
 	ac:personName "Justice Wargrave";
 	ac:gender  "male";
 	ac:usedMethod ac:Shooting,ac:Poisoning;
-	ac:hadMotive ac:Revenge.
+	ac:hadMotive ac:Revenge;
+	ac:quotedSpeeches 349;
+	ac:fate "suicide";
+	ac:beenMentioned 23;
+	ac:hasOccupation "judge".
+	
 ac:DrArmstrong a ac:Suspect;
    ac:personName "Dr. Armstrong";
    ac:gender "male";
-   ac:relationToVictim  "None".
+   ac:relationToVictim  "None";
+   ac:beenMentioned 77.
 
-
+### A Murder is Announced (1950)
+ac:AMurderIsAnnounced a ac:Novel;
+   ac:novelName "A Murder is Announced";
+   ac:publicationYear "1950"^^xsd:gYear;
+   ac:hasMurderer ac:MissBlacklog;
+   ac:hasVictim ac:RudiScherz, ac:DoraBunner, ac:MissMurgatroyd;
+   ac:hasSuspect ac:None.
+ac:MissBlacklog a ac:Murderer;
+   ac:personName "Miss Blacklog";
+   ac:gender "female";
+   ac:usedMethod ac:Shooting,ac:Strangling,ac:Poisoning;
+   ac:hadMotive ac:Greed;
+   ac:quotedSpeeches 647;
+   ac:fate "arrested";
+   ac:beenMentioned 198;
+   ac:hasOccupation "unknown".
 
 ### Death on the Nile (1937) 
 ac:DeathOnTheNile a ac:Novel ;
@@ -111,21 +161,29 @@ ac:DeathOnTheNile a ac:Novel ;
     ac:publicationYear "1937"^^xsd:gYear ;
     ac:hasMurderer  ac:PatrickRedfern	, ac:ChristineRedfern ;
     ac:hasVictim    ac:ArlenaMarschall ;
-    ac:hasDetective ac:Poirot .
+    ac:hasDetective ac:Poirot;
+	ac:hasSuspect ac:KennethMarschall.
+	
 
 ac:ChristineRedfern  a ac:Murderer ;
     ac:personName "Christine Redfern" ;
     ac:gender "female" ;
     ac:usedMethod ac:FalseAlibi ;
     ac:hadMotive  ac:Greed;
-	ac:quotedSpeeches 229.
+	ac:quotedSpeeches 229;
+	ac:fate "arrested";
+	ac:beenMentioned 136;
+	ac:hasOccpuation "teacher".
 
 ac:PatrickRedfern a ac:Murderer ;
     ac:personName "Patrick Redfern" ;
     ac:gender "male" ;
     ac:usedMethod ac:Shooting ;
     ac:hadMotive  ac:Greed;
-	ac:quotedSpeeches 224.
+	ac:quotedSpeeches 224;
+	ac:fate "arrested";
+	ac:beenMentioned 117;
+	ac:hasOccupation "unknown".
 
 ac:ArlenaMarschall a ac:Victim ; ac:personName "Arlena Marschall" ; ac:gender "female" .
 ac:Poirot a ac:Detective;
@@ -135,4 +193,5 @@ ac:Poirot a ac:Detective;
 ac:KennethMarschall a ac:Suspect;
     ac:personName "Kenneth Marschall";
 	ac:gender "male";
-	ac:relationToVictim "Husband".
+	ac:relationToVictim "Husband";
+	ac:beenMentioned 181.
