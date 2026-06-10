@@ -1,0 +1,115 @@
+library(shiny)
+library(rdflib)
+
+g<-rdf_parse("agatha_kg.ttl",format="turtle")
+g
+queries<-list(
+  "1_novels_and_murderers"= "PREFIX ac: <http://example.org/agatha/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT ?novelName ?murdererName WHERE {
+            ?novel a ac:Novel ;
+                   ac:novelName ?novelName ;
+                   ac:hasMurderer ?m .
+            ?m ac:personName ?murdererName .
+        }
+        ORDER BY ?novelName
+    ",
+  
+  "2_murderers_and_motives"="PREFIX ac: <http://example.org/agatha/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT ?murdererName ?Motive WHERE {
+            ?m a ac:Murderer;
+               ac:personName ?murdererName;
+               ac:hadMotive ?motive.
+            ?motive rdfs:label ?Motive.
+        }
+        ORDER BY ?murdererName
+    ",
+  
+  "3_murderers_and_killingMethod"= "PREFIX ac: <http://example.org/agatha/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT ?murdererName ?killingMethod WHERE {
+            ?m a ac:Murderer;
+               ac:personName ?murdererName;
+               ac:usedMethod ?method.
+            ?method rdfs:label ?killingMethod.
+        }
+        ORDER BY ?murdererName
+    ",
+  
+  "3_suspect_and_relationToVictim"="PREFIX ac: <http://example.org/agatha/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT ?suspect ?relation WHERE {
+            ?s a ac:Suspect;
+               ac:personName ?suspect;
+               ac:relationToVictim ?relation.
+        }
+        ORDER BY ?suspect
+    ",
+  
+  "4_murderers_and_theirFate"="PREFIX ac: <http://example.org/agatha/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT ?murdererName ?fate WHERE {
+            ?m a ac:Murderer;
+               ac:personName ?murdererName;
+               ac:fate ?fate.
+        }
+        ORDER BY ?murdererName
+    ",
+  
+  "5_murderers_and_quoted_speeches"="PREFIX ac: <http://example.org/agatha/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT ?murdererName ?quotedSpeeches WHERE {
+            ?m a ac:Murderer;
+               ac:personName ?murdererName;
+               ac:quotedSpeeches ?quotedSpeeches.
+        }
+        ORDER BY ?murdererName
+    ",
+  
+  "6_murderers_and_their_mentions"= "PREFIX ac: <http://example.org/agatha/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT ?murdererName ?mention ?suspect ?suspectMention WHERE {
+            ?b a ac:Novel;
+               ac:hasMurderer ?m;
+               ac:hasSuspect ?s.
+            ?m a ac:Murderer;
+               ac:personName ?murdererName;
+               ac:beenMentioned ?mention.
+            ?s a ac:Suspect;
+               ac:personName ?suspect;
+               ac:beenMentioned ?suspectMention
+        }
+        ORDER BY ?murdererName
+    ",
+  "7_murderers_and_their_occupations"="PREFIX ac: <http://example.org/agatha/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT ?murdererName ?occupation WHERE{
+        ?m a ac:Murderer;
+        ac:personName ?murdererName;
+        ac:hasOccupation ?occupation
+        }
+        ORDER BY ?murdererName   
+    "
+)
+ui <- fluidPage(
+  selectInput("qname", "Choose Query", choices = names(queries)),
+  actionButton("run", "Run"),
+  tableOutput("result")
+)
+server <- function(input, output, session) {
+  
+  daten <- eventReactive(input$run, {
+    
+    query <- queries[[input$qname]]
+    
+    rdf_query(g, query)
+  })
+  
+  output$result <- renderTable({
+    req(daten())
+    daten()
+  })
+}
+shinyApp(ui,server)
+
