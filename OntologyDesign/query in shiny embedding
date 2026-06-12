@@ -1,5 +1,6 @@
 library(shiny)
 library(rdflib)
+library(ggplot2)
 
 g<-rdf_parse("agatha_kg.ttl",format="turtle")
 g
@@ -90,13 +91,25 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         ac:hasOccupation ?occupation
         }
         ORDER BY ?murdererName   
-    "
+    ",
+  "8_murderers_quotedSpeeches_and_mention"="PREFIX ac: <http://example.org/agatha/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT ?murdererName ?quotedspeeches ?mention where{
+        ?m a ac:Murderer;
+        ac:personName ?murdererName;
+        ac:quotedSpeeches ?quotedspeeches;
+        ac:beenMentioned ?mention
+        }
+        ORDER BY ?murdererName
+  "
 )
+
 ui <- fluidPage(
   selectInput("qname", "Choose Query", choices = names(queries)),
   actionButton("run", "Run"),
-  tableOutput("result")
-)
+  tableOutput("result"),
+  plotOutput("plot")
+  )
 server <- function(input, output, session) {
   
   daten <- eventReactive(input$run, {
@@ -110,6 +123,20 @@ server <- function(input, output, session) {
     req(daten())
     daten()
   })
+  
+  df <- rdf_query(g, queries[["8_murderers_quotedSpeeches_and_mention"]])
+  
+  df$quotedspeeches <- as.numeric(df$quotedspeeches)
+  df$mention <- as.numeric(df$mention)
+  output$plot<-renderPlot(ggplot(df, aes(x = quotedspeeches, y = mention)) +
+                             geom_point(size = 3, color = "steelblue") +
+                             geom_text(aes(label = murdererName), vjust = -0.5) +
+                             theme_minimal() +
+                             labs(
+                               title = "Quoted Speeches vs Mentions",
+                               x = "Quoted Speeches",
+                               y = "Been Mentioned"
+                             ))
 }
 shinyApp(ui,server)
 
