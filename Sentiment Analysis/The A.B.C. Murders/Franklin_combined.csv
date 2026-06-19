@@ -1,0 +1,46 @@
+"source,""negative"",""positive"",""neg_positive"",""neg_negative"""
+admitted,0,1,0,0
+demurred,0,0,0,0
+cried,1,0,0,0
+turned to ,0,0,0,0
+eagerly,0,1,0,0
+explained,0,0,0,0
+absorbed,0,0,0,0
+arrived,0,0,0,0
+grin,0,1,0,0
+suspect,1,0,0,0
+bronzed,0,0,0,0
+talkative,0,0,0,0
+brought,0,0,0,0
+came out,0,0,0,0
+came over,0,0,0,0
+said,0,0,0,0
+dryly,0,0,0,0
+impatiently,1,0,0,0
+curiously,0,1,0,0
+quitely,0,0,0,0
+thoughtfully,0,1,0,0
+gave,0,0,0,0
+suggested,0,0,0,0
+very generously,0,1,0,0
+glanced over,0,0,0,0
+got rather red,0,0,0,0
+interrupted,1,0,0,0
+looked abashed,1,0,0,0
+looked startled,1,0,0,0
+purple with rage,1,0,0,0
+repeated,0,0,0,0
+resumed,0,0,0,0
+his ordinary manner,0,0,0,0
+rose,0,0,0,0
+sat,0,0,0,0
+quite still,0,0,0,0
+seemed incredulous,1,0,0,0
+shook,0,0,0,0
+his head,0,0,0,0
+hands with,0,0,0,0
+stared,0,0,0,0
+stow away,0,0,0,0
+the letter,0,0,0,0
+burst out laughing,0,0,0,0
+suddenly,0,0,0,0

@@ -1,0 +1,13 @@
+novel,name,role,degree,speeches,mention,motive,KillingMethod,numberOfVictims,fate
+The Murder of Roger Ackroyd,James Sheppard,murderer,21,699,0,fear of exposure,stabbing,1,suicide
+The A.B.C. Murders,Franklin Clarke,murderer,11,229,20,greed,multiple,4,arrested
+And Then There Were None,Justice Wargrave,murderer,13,349,23,twisted sense of justice,multiple,10,suicide
+Lord Edgware Dies,Jane Wilkinson,murderer,14,272,418,greed,multiple,3,arrested
+The Mirror Cracked Side from Side,Marina Gregg,murderer,11,251,628,revenge,multiple,3,suicide
+A Murder is Announced,Miss Blacklog,murderer,15,647,198,greed,multiple,3,arrested
+The Mystery of the Blue Train,Knighton,murderer,18,152,45,greed,blunt force,1,arrested
+The Mystery of the Blue Train,Mason,co-murderer,10,73,43,greed,false testimony,1,arrested
+Evil under the Sun,Patrick Redfern,murderer,16,224,117,greed,blunt force,1,arrested
+Evil under the Sun,Christine Redfern,co-murderer,16,224,117,greed,false testinomy,1,arrested
+
+
