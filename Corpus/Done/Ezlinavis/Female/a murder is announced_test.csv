@@ -1,0 +1,143 @@
+Source,Type,Target,Weight
+Chauffeur,Undirected,Dermot Craddock,1
+Chauffeur,Undirected,Mrs Goedler,1
+Chauffeur,Undirected,Sister McClelland,1
+Colonel Easterbrook,Undirected,Dermot Craddock,2
+Colonel Easterbrook,Undirected,Dora Bunner,4
+Colonel Easterbrook,Undirected,Edmund,7
+Colonel Easterbrook,Undirected,Miss Blacklog,7
+Colonel Easterbrook,Undirected,Miss Hinchliffe,7
+Colonel Easterbrook,Undirected,Miss Marple,1
+Colonel Easterbrook,Undirected,Miss Murgatroyd,4
+Colonel Easterbrook,Undirected,Mitzi,6
+Colonel Easterbrook,Undirected,Mrs Easterbrook,9
+Colonel Easterbrook,Undirected,Mrs Harmon,3
+Colonel Easterbrook,Undirected,Mrs Haymes,7
+Colonel Easterbrook,Undirected,Mrs Swettenham,7
+Colonel Easterbrook,Undirected,Patrick Simmons,6
+Colonel Easterbrook,Undirected,Sergeant Fletcher,2
+Colonel Easterbrook,Undirected,faked Julia,6
+Dayas,Undirected,Dermot Craddock,1
+Dayas,Undirected,Mrs Haymes,1
+Dermot Craddock,Undirected,Dora Bunner,3
+Dermot Craddock,Undirected,Edmund,2
+Dermot Craddock,Undirected,George Rydesdale,6
+Dermot Craddock,Undirected,Henry Clithering,3
+Dermot Craddock,Undirected,Julian Harmon,1
+Dermot Craddock,Undirected,Miss Blacklog,7
+Dermot Craddock,Undirected,Miss Hinchliffe,2
+Dermot Craddock,Undirected,Miss Marple,4
+Dermot Craddock,Undirected,Miss Murgatroyd,1
+Dermot Craddock,Undirected,Mitzi,5
+Dermot Craddock,Undirected,Mr Rowlandson,1
+Dermot Craddock,Undirected,Mrs Easterbrook,2
+Dermot Craddock,Undirected,Mrs Goedler,1
+Dermot Craddock,Undirected,Mrs Harmon,3
+Dermot Craddock,Undirected,Mrs Haymes,5
+Dermot Craddock,Undirected,Mrs Lucas,1
+Dermot Craddock,Undirected,Mrs Swettenham,2
+Dermot Craddock,Undirected,Myrna Harris,2
+Dermot Craddock,Undirected,Patrick Simmons,3
+Dermot Craddock,Undirected,Sergeant Fletcher,8
+Dermot Craddock,Undirected,Sister McClelland,1
+Dermot Craddock,Undirected,faked Julia,5
+Dora Bunner,Undirected,Edmund,4
+Dora Bunner,Undirected,Miss Blacklog,10
+Dora Bunner,Undirected,Miss Hinchliffe,4
+Dora Bunner,Undirected,Miss Marple,2
+Dora Bunner,Undirected,Miss Murgatroyd,3
+Dora Bunner,Undirected,Mitzi,5
+Dora Bunner,Undirected,Mrs Easterbrook,4
+Dora Bunner,Undirected,Mrs Harmon,4
+Dora Bunner,Undirected,Mrs Haymes,4
+Dora Bunner,Undirected,Mrs Swettenham,3
+Dora Bunner,Undirected,Patrick Simmons,6
+Dora Bunner,Undirected,Sergeant Fletcher,1
+Dora Bunner,Undirected,faked Julia,7
+Edmund,Undirected,Miss Blacklog,7
+Edmund,Undirected,Miss Hinchliffe,7
+Edmund,Undirected,Miss Marple,1
+Edmund,Undirected,Miss Murgatroyd,4
+Edmund,Undirected,Mitzi,6
+Edmund,Undirected,Mrs Easterbrook,7
+Edmund,Undirected,Mrs Finch,1
+Edmund,Undirected,Mrs Harmon,3
+Edmund,Undirected,Mrs Haymes,8
+Edmund,Undirected,Mrs Swettenham,8
+Edmund,Undirected,Patrick Simmons,6
+Edmund,Undirected,Sergeant Fletcher,1
+Edmund,Undirected,faked Julia,6
+George Rydesdale,Undirected,Henry Clithering,3
+George Rydesdale,Undirected,Miss Marple,2
+George Rydesdale,Undirected,Mrs Harmon,1
+Henry Clithering,Undirected,Miss Marple,1
+Julian Harmon,Undirected,Mrs Harmon,2
+Julian Harmon,Undirected,Sergeant Fletcher,1
+Miss Blacklog,Undirected,Miss Hinchliffe,7
+Miss Blacklog,Undirected,Miss Marple,4
+Miss Blacklog,Undirected,Miss Murgatroyd,5
+Miss Blacklog,Undirected,Mitzi,10
+Miss Blacklog,Undirected,Mrs Easterbrook,7
+Miss Blacklog,Undirected,Mrs Harmon,5
+Miss Blacklog,Undirected,Mrs Haymes,11
+Miss Blacklog,Undirected,Mrs Swettenham,6
+Miss Blacklog,Undirected,Patrick Simmons,10
+Miss Blacklog,Undirected,Sergeant Fletcher,2
+Miss Blacklog,Undirected,faked Julia,14
+Miss Hinchliffe,Undirected,Miss Marple,2
+Miss Hinchliffe,Undirected,Miss Murgatroyd,8
+Miss Hinchliffe,Undirected,Mitzi,6
+Miss Hinchliffe,Undirected,Mrs Easterbrook,7
+Miss Hinchliffe,Undirected,Mrs Harmon,3
+Miss Hinchliffe,Undirected,Mrs Haymes,7
+Miss Hinchliffe,Undirected,Mrs Swettenham,6
+Miss Hinchliffe,Undirected,Patrick Simmons,6
+Miss Hinchliffe,Undirected,Sergeant Fletcher,2
+Miss Hinchliffe,Undirected,faked Julia,6
+Miss Marple,Undirected,Mitzi,2
+Miss Marple,Undirected,Mrs Easterbrook,1
+Miss Marple,Undirected,Mrs Harmon,4
+Miss Marple,Undirected,Mrs Haymes,1
+Miss Marple,Undirected,Mrs Swettenham,1
+Miss Marple,Undirected,Patrick Simmons,2
+Miss Marple,Undirected,Sergeant Fletcher,1
+Miss Marple,Undirected,faked Julia,3
+Miss Murgatroyd,Undirected,Mitzi,4
+Miss Murgatroyd,Undirected,Mrs Easterbrook,4
+Miss Murgatroyd,Undirected,Mrs Harmon,3
+Miss Murgatroyd,Undirected,Mrs Haymes,4
+Miss Murgatroyd,Undirected,Mrs Swettenham,4
+Miss Murgatroyd,Undirected,Patrick Simmons,3
+Miss Murgatroyd,Undirected,Sergeant Fletcher,1
+Miss Murgatroyd,Undirected,faked Julia,3
+Mitzi,Undirected,Mrs Easterbrook,6
+Mitzi,Undirected,Mrs Harmon,3
+Mitzi,Undirected,Mrs Haymes,7
+Mitzi,Undirected,Mrs Swettenham,6
+Mitzi,Undirected,Patrick Simmons,6
+Mitzi,Undirected,Sergeant Fletcher,2
+Mitzi,Undirected,faked Julia,7
+Mr Rowlandson,Undirected,Myrna Harris,1
+Mrs Easterbrook,Undirected,Mrs Harmon,3
+Mrs Easterbrook,Undirected,Mrs Haymes,7
+Mrs Easterbrook,Undirected,Mrs Swettenham,6
+Mrs Easterbrook,Undirected,Patrick Simmons,6
+Mrs Easterbrook,Undirected,Sergeant Fletcher,2
+Mrs Easterbrook,Undirected,faked Julia,6
+Mrs Finch,Undirected,Mrs Swettenham,1
+Mrs Goedler,Undirected,Sister McClelland,1
+Mrs Harmon,Undirected,Mrs Haymes,3
+Mrs Harmon,Undirected,Mrs Swettenham,3
+Mrs Harmon,Undirected,Patrick Simmons,3
+Mrs Harmon,Undirected,Sergeant Fletcher,2
+Mrs Harmon,Undirected,faked Julia,3
+Mrs Haymes,Undirected,Mrs Swettenham,6
+Mrs Haymes,Undirected,Patrick Simmons,8
+Mrs Haymes,Undirected,Sergeant Fletcher,2
+Mrs Haymes,Undirected,faked Julia,10
+Mrs Swettenham,Undirected,Patrick Simmons,5
+Mrs Swettenham,Undirected,Sergeant Fletcher,2
+Mrs Swettenham,Undirected,faked Julia,5
+Patrick Simmons,Undirected,Sergeant Fletcher,2
+Patrick Simmons,Undirected,faked Julia,10
+Sergeant Fletcher,Undirected,faked Julia,2

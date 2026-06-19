@@ -1,0 +1,104 @@
+target,type,source
+Poirot,undirected,replied
+replied,undirected,seriously
+replied,undirected,gravely
+Poirot,undirected,admitted
+Poirot,undirected,agreed
+Poirot,undirected,prophesy
+Poirot,undirected,asked
+Poirot,undirected,cried
+Poirot,undirected,commanded
+Poirot,undirected,declared
+Poirot,undirected,inquired
+Poirot,undirected,interpolated
+interpolated,undirected,quickly
+Poirot,undirected,rapped
+rapped,undirected,gently
+Poirot,undirected,interrupted
+Poirot,undirected,said
+said,undirected,softly
+said,undirected,interrupting
+said,undirected,kindly
+said,undirected,meditatively
+said,undirected,mildly
+said,undirected,slightly embarrassed
+said,undirected,pityingly
+said,undirected,placidly
+said,undirected,regretfully
+said,undirected,shortly
+said,undirected,pleasantly
+said,undirected,apologetically
+said,undirected,dryly
+Poirot,undirected,spoke
+spoke,undirected,mildly
+said,undirected,primly
+said,undirected,quietly
+said,undirected,rapidly
+said,undirected,soothingly
+said,undirected,sternly
+said,undirected,thoughtfully
+Poirot,undirected,thought
+Poirot,undirected,stopped
+Poirot,undirected,removed
+Poirot,undirected,rapped out
+rapped out,undirected,suddenly
+Poirot,undirected,read
+Poirot,undirected,repeated
+Poirot,undirected,raised
+raised,undirected,eyebrows
+raised,undirected,a hand
+raised,undirected,protesingly
+Poirot,undirected,nodded
+nodded,undirected,approval
+nodded,undirected,energetically
+nodded,undirected,approvingly
+Poirot,undirected,remarked
+remarked,undirected,nonchalantly
+Poirot,undirected,sat down
+Poirot,undirected,sat upright
+Poirot,undirected,smiled
+smiled,undirected,admiringly
+smiled,undirected,indulgently
+Poirot,undirected,shrugged
+Poirot,undirected,shook
+shook,undirected,his head
+Poirot,undirected,laughed
+Poirot,undirected,leaned forward
+Poirot,undirected,put in
+put in, undirected,neatly
+Poirot,undirected,rose
+Poirot,undirected,bowed
+Poirot,undirected,right
+Poirot,undirected,wise man
+Poirot,undirected,lingered
+Poirot,undirected,listened
+listened,undirected,carefully
+Poirot,undirected,looked at
+looked at,undirected,attentively
+looked at,undirected,very gravely
+looked at,undirected,thoughtfully
+looked at,undirected,inquiringly
+Poirot,undirected, looked bewildered
+Poirot,undirected,suggested
+suggested,undirected,smoothly
+Poirot,undirected,solved
+solved,undirected,a mystery
+Poirot,undirected,sprang
+Poirot,undirected,stared
+Poirot,undirected,stayed behind
+Poirot,undirected,interposed
+interposed,undirected,suddenly
+Poirot,undirected,made a diversion
+made a diversion,undirected,tactfully
+Poirot,undirected,tossed
+tossed,undirected,stump of cigarette
+Poirot,undirected,murmured
+Poirot,undirected,nursed
+nursed,undirected,tenderly
+Poirot,undirected,watched
+watched,undirected,keely
+watched,undirected,with approval
+Poirot,undirected,expected
+Poirot,undirected,wanted
+Poirot,undirected,arrived
+arrived,undirected,duly

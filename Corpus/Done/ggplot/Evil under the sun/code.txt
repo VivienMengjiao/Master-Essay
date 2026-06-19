@@ -1,0 +1,1 @@
+> ggplot(pd_3)+geom_bar(aes(x=Chapter,y=Frequency_PR,fill="PR"),stat="identity",position="dodge",alpha=0.6)+geom_bar(aes(x=Chapter,y=Frequency_CR,fill="CR"),stat="identity",position="dodge",alpha=0.6)+labs(x="Chapter",y="Frequency",title="Evil under the sun_Christine Redfern & Patrick Redfern")

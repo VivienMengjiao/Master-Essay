@@ -1,0 +1,159 @@
+Source,Type,Target,Weight
+Ardwyck Fenn,Undirected,Dermot Craddock,1
+Ardwyck Fenn,Undirected,Donald McNeil,1
+Ardwyck Fenn,Undirected,Dr Sandford,1
+Ardwyck Fenn,Undirected,Ella Zielinsky,1
+Ardwyck Fenn,Undirected,Giuseppe,1
+Ardwyck Fenn,Undirected,Hailey Preston,1
+Ardwyck Fenn,Undirected,Jason Rudd,1
+Ardwyck Fenn,Undirected,Margot Bence,1
+Ardwyck Fenn,Undirected,Marina Gregg,1
+Ardwyck Fenn,Undirected,Mrs Allcock,1
+Ardwyck Fenn,Undirected,Mrs Bantry,1
+Ardwyck Fenn,Undirected,Sandford's wife,1
+Ardwyck Fenn,Undirected,The Mayor,1
+Ardwyck Fenn,Undirected,The councilor,1
+Bianca,Undirected,Giuseppe,1
+Cherry,Undirected,Gladys Dixon,1
+Cherry,Undirected,Jim Baker,1
+Cherry,Undirected,Miss Knight,3
+Cherry,Undirected,Miss Marple,4
+Cherry,Undirected,Mrs Dixon,1
+Cherry,Undirected,Taxi Driver,1
+Dermot Craddock,Undirected,Donald McNeil,1
+Dermot Craddock,Undirected,Ella Zielinsky,2
+Dermot Craddock,Undirected,Frank Cornish,4
+Dermot Craddock,Undirected,Hailey Preston,1
+Dermot Craddock,Undirected,Jason Rudd,3
+Dermot Craddock,Undirected,Johnny Jethroe,1
+Dermot Craddock,Undirected,Lola Brewster,1
+Dermot Craddock,Undirected,Margot Bence,1
+Dermot Craddock,Undirected,Marina Gregg,1
+Dermot Craddock,Undirected,Maurice Gilchrist,1
+Dermot Craddock,Undirected,Miss Knight,1
+Dermot Craddock,Undirected,Miss Marple,3
+Dermot Craddock,Undirected,Mrs Bantry,1
+Dermot Craddock,Undirected,Tiddler,2
+Dermot Craddock,Undirected,assistant commissioner,1
+Donald McNeil,Undirected,Dr Sandford,1
+Donald McNeil,Undirected,Ella Zielinsky,1
+Donald McNeil,Undirected,Giuseppe,1
+Donald McNeil,Undirected,Hailey Preston,1
+Donald McNeil,Undirected,Jason Rudd,1
+Donald McNeil,Undirected,Margot Bence,1
+Donald McNeil,Undirected,Marina Gregg,1
+Donald McNeil,Undirected,Mrs Allcock,1
+Donald McNeil,Undirected,Mrs Bantry,1
+Donald McNeil,Undirected,Sandford's wife,1
+Donald McNeil,Undirected,The Mayor,1
+Donald McNeil,Undirected,The councilor,1
+Dr Haydock,Undirected,Miss Knight,2
+Dr Haydock,Undirected,Miss Marple,4
+Dr Haydock,Undirected,Mrs Bantry,1
+Dr Haydock,Undirected,Mrs Dixon,1
+Dr Sandford,Undirected,Ella Zielinsky,1
+Dr Sandford,Undirected,Giuseppe,1
+Dr Sandford,Undirected,Hailey Preston,1
+Dr Sandford,Undirected,Jason Rudd,1
+Dr Sandford,Undirected,Margot Bence,1
+Dr Sandford,Undirected,Marina Gregg,1
+Dr Sandford,Undirected,Mrs Allcock,1
+Dr Sandford,Undirected,Mrs Bantry,1
+Dr Sandford,Undirected,Sandford's wife,1
+Dr Sandford,Undirected,The Mayor,1
+Dr Sandford,Undirected,The councilor,1
+Ella Zielinsky,Undirected,Giuseppe,1
+Ella Zielinsky,Undirected,Hailey Preston,1
+Ella Zielinsky,Undirected,Jason Rudd,3
+Ella Zielinsky,Undirected,Margot Bence,1
+Ella Zielinsky,Undirected,Marina Gregg,2
+Ella Zielinsky,Undirected,Mrs Allcock,1
+Ella Zielinsky,Undirected,Mrs Bantry,3
+Ella Zielinsky,Undirected,Sandford's wife,1
+Ella Zielinsky,Undirected,The Mayor,1
+Ella Zielinsky,Undirected,The councilor,1
+Frank Cornish,Undirected,Hailey Preston,1
+Frank Cornish,Undirected,Mary Bain,1
+Frank Cornish,Undirected,Maurice Gilchrist,1
+Frank Cornish,Undirected,Mr Badcock,1
+Giuseppe,Undirected,Hailey Preston,1
+Giuseppe,Undirected,Jason Rudd,1
+Giuseppe,Undirected,Margot Bence,1
+Giuseppe,Undirected,Marina Gregg,1
+Giuseppe,Undirected,Mrs Allcock,1
+Giuseppe,Undirected,Mrs Bantry,1
+Giuseppe,Undirected,Sandford's wife,1
+Giuseppe,Undirected,The Mayor,1
+Giuseppe,Undirected,The councilor,1
+Gladys Dixon,Undirected,Mrs Dixon,1
+Hailey Preston,Undirected,Jason Rudd,2
+Hailey Preston,Undirected,Margot Bence,1
+Hailey Preston,Undirected,Marina Gregg,1
+Hailey Preston,Undirected,Maurice Gilchrist,3
+Hailey Preston,Undirected,Miss Marple,2
+Hailey Preston,Undirected,Mrs Allcock,1
+Hailey Preston,Undirected,Mrs Bantry,1
+Hailey Preston,Undirected,Sandford's wife,1
+Hailey Preston,Undirected,The Mayor,1
+Hailey Preston,Undirected,The councilor,1
+Hailey Preston,Undirected,Tiddler,1
+Hailey Preston,Undirected,an old lady,1
+Hailey Preston,Undirected,the new butler,2
+Harry,Undirected,Lily,1
+Harry,Undirected,Miss Marple,1
+Harry,Undirected,Mr Badcock,1
+Harry,Undirected,Mrs Badcock,1
+Jason Rudd,Undirected,Margot Bence,1
+Jason Rudd,Undirected,Marina Gregg,4
+Jason Rudd,Undirected,Maurice Gilchrist,1
+Jason Rudd,Undirected,Miss Marple,1
+Jason Rudd,Undirected,Mrs Allcock,1
+Jason Rudd,Undirected,Mrs Bantry,2
+Jason Rudd,Undirected,Sandford's wife,1
+Jason Rudd,Undirected,The Mayor,1
+Jason Rudd,Undirected,The councilor,1
+Jason Rudd,Undirected,Tiddler,1
+Jason Rudd,Undirected,the new butler,1
+Johnny Jethroe,Undirected,Margot Bence,1
+Lily,Undirected,Miss Marple,1
+Lily,Undirected,Mr Badcock,1
+Lily,Undirected,Mrs Badcock,1
+Margot Bence,Undirected,Marina Gregg,1
+Margot Bence,Undirected,Mrs Allcock,1
+Margot Bence,Undirected,Mrs Bantry,1
+Margot Bence,Undirected,Sandford's wife,1
+Margot Bence,Undirected,The Mayor,1
+Margot Bence,Undirected,The councilor,1
+Marina Gregg,Undirected,Mrs Allcock,1
+Marina Gregg,Undirected,Mrs Bantry,2
+Marina Gregg,Undirected,Sandford's wife,1
+Marina Gregg,Undirected,The Mayor,1
+Marina Gregg,Undirected,The councilor,1
+Mary Bain,Undirected,Mr Badcock,1
+Maurice Gilchrist,Undirected,Miss Marple,2
+Maurice Gilchrist,Undirected,Tiddler,1
+Maurice Gilchrist,Undirected,the new butler,2
+Miss Knight,Undirected,Miss Marple,8
+Miss Knight,Undirected,Mrs Bantry,1
+Miss Knight,Undirected,Taxi Driver,1
+Miss Marple,Undirected,Mr Badcock,1
+Miss Marple,Undirected,Mrs Badcock,1
+Miss Marple,Undirected,Mrs Bantry,2
+Miss Marple,Undirected,Mrs Dixon,1
+Miss Marple,Undirected,Mrs Jameson,1
+Miss Marple,Undirected,Taxi Driver,1
+Miss Marple,Undirected,Tiddler,1
+Miss Marple,Undirected,the new butler,2
+Mr Badcock,Undirected,Mrs Badcock,1
+Mrs Allcock,Undirected,Mrs Bantry,1
+Mrs Allcock,Undirected,Sandford's wife,1
+Mrs Allcock,Undirected,The Mayor,1
+Mrs Allcock,Undirected,The councilor,1
+Mrs Bantry,Undirected,Sandford's wife,1
+Mrs Bantry,Undirected,The Mayor,1
+Mrs Bantry,Undirected,The councilor,1
+Sandford's wife,Undirected,The Mayor,1
+Sandford's wife,Undirected,The councilor,1
+The Mayor,Undirected,The councilor,1
+Tiddler,Undirected,a 15 years old girl,1
+Tiddler,Undirected,the new butler,1

@@ -1,0 +1,14 @@
+Poirot_Modifier<-read.csv("S:/Studium/DH/Masterarbeit/Done/Modifier/AntConc/The murder of roger ackroyd/Poirot_Modifiers.csv")
+Poirot_Modifier$source
+Poirot<-Poirot_Modifier$source
+Poirot
+
+library(quanteda)
+
+dfm.temp<-dfm(Poirot)
+
+
+dfm.sotu<-dfm_lookup(dfm.temp,dictionary=data_dictionary_LSD2015)
+dfm.sotu
+dfm_Poirot <- as.data.frame(as.matrix(dfm.sotu))
+write.csv(dfm_Poirot, "S:/Studium/DH/Masterarbeit/dfm_Poirot.csv", row.names = TRUE)

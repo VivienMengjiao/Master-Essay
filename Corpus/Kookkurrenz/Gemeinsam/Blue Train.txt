@@ -1,0 +1,214 @@
+#1
+Boris Ivanovitch
+Olga Demiroff
+Rufus Van Aldin
+Le Marquis
+
+#2
+Le Marquis
+M.Papopolous
+Zia
+
+#3
+Rufus Van Aldin
+Knighton
+Desk Clerk
+
+#4
+Ruth Kettering
+Rufus Van Aldin
+Knighton
+
+#5
+Rufus Van Aldin
+Mr Goby
+Knighton
+Derek Kettering
+Ruth Kettering
+
+#6
+Derek Kettering
+Mirelle
+
+#7
+Mrs Harfield
+Katherine
+Dr Harrison
+Mrs Harrison
+Alice
+
+#8
+Lady Tamplin
+Lenox
+Katherine
+The Lawyer
+Duchess
+Derek Kettering
+
+#9
+Derek Kettering
+Katherine
+Pavett
+Knighton
+
+#10
+Ruth Kettering
+Rufus Van Aldin
+Mason
+Katherine
+Poirot
+Derek Kettering
+Mirelle
+
+#11
+Katherine
+Chubby
+Mr Evans
+M.Caux
+Poirot
+The conductor
+
+#12
+Lady Tamplin
+Lenox
+Chubby
+Katherine
+Derek Kettering
+
+#13
+Rufus Van AldinF
+Knighton
+Mr Goby
+
+#14
+M.Carrège
+Rufus Van Aldin
+Poirot
+M.Caux
+Mason
+
+#15
+Rufus Van Aldin
+M.Caux
+M.Carrège
+Poirot
+
+#16
+Poirot
+M.Caux
+M.Carrège
+Rufus Van Aldin
+
+#17
+George
+Poirot
+M.Caux
+M.Carrège
+The Comet
+Mason
+Derek Kettering
+
+#18
+Derek Kettering
+Mirelle
+Katherine
+
+#19
+The Comet
+Hippolyte
+Mirelle
+
+#20
+Katherine
+Lenox
+Chubby
+Lady Tamplin
+Poirot
+Knighton
+Rufus Van Aldin
+
+#21
+Katherine
+Lenox
+Lady Tamplin
+Knighton
+Poirot
+Derek Kettering
+Rufus Van Aldin
+
+#22
+M.Papopolous
+Zia
+Poirot
+
+#23
+Poirot
+Rufus Van Aldin
+Mason
+
+#24
+Rufus Van Aldin
+Poirot
+Derek Kettering
+George
+Mirelle
+
+#25
+Derek Kettering
+The Comet
+Mirelle
+
+#26
+Poirot
+Katherine
+Derek Kettering
+Knighton
+
+#27
+Knighton
+Poirot
+Mirelle
+M.Carrège 
+Geroge
+M.Caux
+
+#28
+Poirot
+Lady Tamplin
+Lenox
+M.Papopolous
+Zia
+Mirelle
+
+#29
+Katherine
+Lenox
+Poirot
+Rufus Van Aldin
+Knighton
+Hippolyte
+Marie
+Mirelle
+
+#30
+Katherine
+Miss Viner
+Knighton
+
+#31
+Josef Aaron
+Poirot
+
+#32
+Katherine
+Poirot
+
+#33
+Rufus Van Aldin
+Knighton
+Poirot
+
+#34
+Poirot
+Knighton
+Rufus Van Aldin

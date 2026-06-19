@@ -1,0 +1,76 @@
+"source","negative","positive","neg_positive","neg_negative"
+"add",0,0,0,0
+"apologetically",0,1,0,0
+"advised",0,0,0,0
+"said",0,0,0,0
+"absentmindedly",1,0,0,0
+"gently",0,1,0,0
+"mildly",0,1,0,0
+"politely",0,1,0,0
+"quietly",0,1,0,0
+"questioningly",0,0,0,0
+"nervously",1,0,0,0
+"in a flurried manner",0,0,0,0
+"thoughtfully",0,1,0,0
+"vaguely",1,0,0,0
+"pressed",0,0,0,0
+"the small switch",0,0,0,0
+"belived",0,0,0,0
+"blinked",0,0,0,0
+"hovered",0,0,0,0
+"artistically",0,1,0,0
+"came out",0,0,0,0
+"came up",0,0,0,0
+"kindly",0,1,0,0
+"coughed",0,0,0,0
+"decided",0,0,0,0
+"drew",0,0,0,0
+"a sheet of paper",0,0,0,0
+"folded",0,0,0,0
+"the letter",0,0,0,0
+"handed back",0,0,0,0
+"gave ",0,0,0,0
+"attention",0,0,0,0
+"inquired",0,0,0,0
+"know",0,0,0,0
+"the world",0,0,0,0
+"lean back",0,0,0,0
+"looked round",0,0,0,0
+"looked ",0,0,0,0
+"earnestly",0,1,0,0
+"made up ",0,0,0,0
+"her mind",0,0,0,0
+"nodded",0,0,0,0
+"paused",0,0,0,0
+"ran",0,0,0,0
+"read",0,0,0,0
+"recieved",0,0,0,0
+"account",0,0,0,0
+"remembered",0,0,0,0
+"sat",0,0,0,0
+"quite still",0,0,0,0
+"knitting",0,0,0,0
+"scuttled out",0,0,0,0
+"shook",0,0,0,0
+"her head",0,0,0,0
+"sighed",1,0,0,0
+"smiled",0,1,0,0
+"brightly",0,1,0,0
+"a little",0,0,0,0
+"stepped",0,0,0,0
+"subsided",0,0,0,0
+"gratefully",0,1,0,0
+"suggested",0,0,0,0
+"roguishly",1,0,0,0
+"thought",0,0,0,0
+"took up",0,0,0,0
+"the tale",0,0,0,0
+"took",0,0,0,0
+"turned",0,0,0,0
+"her face",0,0,0,0
+"her head",0,0,0,0
+"to Patrick",0,0,0,0
+"unfolded",0,0,0,0
+"the fragile paper",1,0,0,0
+"embarrassment",1,0,0,0
+"active",0,1,0,0

@@ -1,0 +1,75 @@
+Source,Type,Target,Weight
+Anthony,Undirected,Armstrong,7
+Anthony,Undirected,Blore,6
+Anthony,Undirected,Butler,1
+Anthony,Undirected,Emily,8
+Anthony,Undirected,Fred,3
+Anthony,Undirected,Lombard,7
+Anthony,Undirected,Macarthur,8
+Anthony,Undirected,Mrs Rogers,2
+Anthony,Undirected,Rogers,5
+Anthony,Undirected,Vera,8
+Anthony,Undirected,Wargrave,8
+Armstrong,Undirected,Blore,40
+Armstrong,Undirected,Butler,1
+Armstrong,Undirected,Emily,25
+Armstrong,Undirected,Fred,3
+Armstrong,Undirected,Lombard,42
+Armstrong,Undirected,Macarthur,11
+Armstrong,Undirected,Mrs Rogers,4
+Armstrong,Undirected,Rogers,21
+Armstrong,Undirected,Taxi Driver 1,1
+Armstrong,Undirected,Taxi Driver 2,1
+Armstrong,Undirected,Vera,30
+Armstrong,Undirected,Wargrave,35
+Blore,Undirected,Butler,1
+Blore,Undirected,Emily,24
+Blore,Undirected,Fred,3
+Blore,Undirected,Lombard,48
+Blore,Undirected,Macarthur,11
+Blore,Undirected,Mrs Rogers,3
+Blore,Undirected,Rogers,19
+Blore,Undirected,Vera,33
+Blore,Undirected,Wargrave,30
+Butler,Undirected,Emily,1
+Butler,Undirected,Fred,1
+Butler,Undirected,Lombard,1
+Butler,Undirected,Macarthur,1
+Butler,Undirected,Vera,1
+Butler,Undirected,Wargrave,1
+Emily,Undirected,Fred,3
+Emily,Undirected,Lombard,25
+Emily,Undirected,Macarthur,11
+Emily,Undirected,Mrs Rogers,3
+Emily,Undirected,Rogers,16
+Emily,Undirected,Taxi Driver 1,1
+Emily,Undirected,Taxi Driver 2,1
+Emily,Undirected,Vera,26
+Emily,Undirected,Wargrave,27
+Fred,Undirected,Lombard,3
+Fred,Undirected,Macarthur,3
+Fred,Undirected,Vera,3
+Fred,Undirected,Wargrave,3
+Issac Morris,Undirected,Lombard,1
+Lombard,Undirected,Macarthur,13
+Lombard,Undirected,Mrs Rogers,3
+Lombard,Undirected,Rogers,18
+Lombard,Undirected,Taxi Driver 1,1
+Lombard,Undirected,Taxi Driver 2,1
+Lombard,Undirected,Vera,41
+Lombard,Undirected,Wargrave,31
+Macarthur,Undirected,Mrs Rogers,3
+Macarthur,Undirected,Rogers,7
+Macarthur,Undirected,Vera,12
+Macarthur,Undirected,Wargrave,11
+Mrs Rogers,Undirected,Rogers,4
+Mrs Rogers,Undirected,Vera,4
+Mrs Rogers,Undirected,Wargrave,3
+Rogers,Undirected,Vera,13
+Rogers,Undirected,Wargrave,19
+Taxi Driver 1,Undirected,Taxi Driver 2,1
+Taxi Driver 1,Undirected,Vera,1
+Taxi Driver 1,Undirected,Wargrave,1
+Taxi Driver 2,Undirected,Vera,1
+Taxi Driver 2,Undirected,Wargrave,1
+Vera,Undirected,Wargrave,28

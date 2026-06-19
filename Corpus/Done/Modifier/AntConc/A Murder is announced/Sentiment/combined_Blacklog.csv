@@ -1,0 +1,66 @@
+"source","negative","positive","neg_positive","neg_negative"
+"darling",0,1,0,0
+"dearest",0,1,0,0
+"poor",1,0,0,0
+"wear ",0,0,0,0
+" always pearl",0,0,0,0
+"became ",0,0,0,0
+"uneasy",1,0,0,0
+"began to understand",0,1,0,0
+"came",0,0,0,0
+"out",0,0,0,0
+"in",0,0,0,0
+"along",0,0,0,0
+"bought ",0,0,0,0
+"heavy glass",1,0,0,0
+"cared",0,1,0,0
+"about murders",1,0,0,0
+"annoyed",1,0,0,0
+"said",0,0,0,0
+"cheerfully",0,1,0,0
+"coldly",1,0,0,0
+"crisply",0,0,0,0
+"dully",1,0,0,0
+"good-humouredly",0,0,0,0
+"grimly",1,0,0,0
+"lightly",0,0,0,0
+"indicated",0,0,0,0
+"interrupted",1,0,0,0
+"gently",0,1,0,0
+"firmly",0,1,0,0
+"clearly outlined",0,0,0,0
+"considered",0,0,0,0
+"continued",0,0,0,0
+"sharply",0,0,0,0
+"controlled",0,0,0,0
+"corrected",0,1,0,0
+"cried out",1,0,0,0
+"entered",0,0,0,0
+"felt",0,0,0,0
+"safe",0,1,0,0
+"frowned",1,0,0,0
+"gave",0,0,0,0
+"a subdued chuckle",0,1,0,0
+"goes",0,0,0,0
+"out",0,0,0,0
+"keep",0,0,0,0
+"much money",0,0,0,0
+"knew",0,0,0,0
+"listened",0,0,0,0
+"with more attention",0,0,0,0
+"slightly surprised",0,0,0,0
+"lost",1,0,0,0
+"her sister",0,0,0,0
+"negatived",1,0,0,0
+"quite decidedly",0,0,0,0
+"nodded",0,0,0,0
+"vigorously",0,1,0,0
+"obeyed",0,0,0,0
+"patted",0,0,0,0
+"wept",1,0,0,0
+"uncontrollably",1,0,0,0
+"strong",0,1,0,0
+"pleased",0,1,0,0
+"an elderly woman",0,0,0,0
+"without relatives",0,0,0,0
+"willing to help",0,1,0,0
