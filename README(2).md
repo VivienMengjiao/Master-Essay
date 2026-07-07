@@ -35,6 +35,9 @@ The content of this GitHub repository is organized as follows:
    * Combination of all 8 novels with the names of target characters standardized
    * t-SNE visualizations of the murderers in these eight novels
 
+8. **ontology design, Sparql Query and shinyAPP**
+   * These are the new methodologies the author is learning to represent the relationships between the characters and their attributes.                
+
 The data and visualizations are provided for further analysis and reuse in related research projects.
 
 ## Tools used
