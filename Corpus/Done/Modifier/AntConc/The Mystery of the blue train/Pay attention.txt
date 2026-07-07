@@ -1,3 +1,0 @@
-Sentiment manuell kontrolle:
-Kind
-Body

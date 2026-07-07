@@ -1,3 +1,0 @@
-> pd<-read.csv("S:/Studium/DH/Masterarbeit/Done/murderfrequency_ggplot/a murder is announced_murder frequency.csv")
-> library(ggplot2)
->> ggplot(data=pd,aes(x=Chapter,y=Frequency))+geom_bar(stat="identity",fill="black")+labs(title="A murder is announced_Miss Blacklog")
