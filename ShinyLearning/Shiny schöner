@@ -1,0 +1,202 @@
+library(shiny)
+library(dplyr)
+library(visNetwork)
+library(igraph)
+
+
+nodes <- read.csv("nodes.csv", stringsAsFactors = FALSE)
+edges <- read.csv("edges.csv", stringsAsFactors = FALSE)
+
+
+g <- graph_from_data_frame(edges, directed = FALSE, vertices = nodes)
+deg <- degree(g)
+nodes$degree <- as.numeric(deg[nodes$Id])
+nodes$degree[is.na(nodes$degree)] <- 0
+
+
+nodes$role <- "Other"
+nodes$role[nodes$Id == "Poirot"] <- "Detective"
+nodes$role[nodes$Id == "Jane_Wilkinson"] <- "Murderer"
+
+
+ui <- fluidPage(
+  tags$head(
+    tags$style(HTML("
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        padding: 20px;
+      }
+      .container-fluid {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        padding: 30px;
+      }
+      h2 {
+        color: #333;
+        border-bottom: 3px solid #667eea;
+        padding-bottom: 10px;
+      }
+      .sidebar-panel {
+        background: #f8f9fa;
+        border-radius: 8px;
+        padding: 20px;
+        border-left: 5px solid #667eea;
+      }
+      .control-label {
+        font-weight: 600;
+        color: #333;
+      }
+      .checkbox {
+        margin: 10px 0;
+      }
+    "))
+  ),
+  
+  titlePanel(
+    h2("Lord Edgware Dies - Character Cooccurrence Network")
+  ),
+  
+  sidebarLayout(
+    sidebarPanel(
+      class = "sidebar-panel",
+      
+      h4("Filter Options", style = "color: #667eea; font-weight: bold;"),
+      
+      checkboxGroupInput(
+        "selectedRoles",
+        "Select character types:",
+        choices = c("Detective", "Murderer", "Other"),
+        selected = c("Detective", "Murderer", "Other")
+      ),
+      
+      hr(),
+      
+      h4("Network Stats", style = "color: #667eea; font-weight: bold;"),
+      
+      verbatimTextOutput("stats"),
+      
+      hr(),
+      
+      h5("Tips:", style = "color: #999;"),
+      p("• Click nodes to highlight connections", style = "font-size: 12px;"),
+      p("• Drag nodes to move them", style = "font-size: 12px;"),
+      p("• Scroll to zoom in/out", style = "font-size: 12px;"),
+      p("• Node size = importance (degree)", style = "font-size: 12px;"),
+      p("• Edge width = cooccurrence strength", style = "font-size: 12px;")
+    ),
+    
+    mainPanel(
+      visNetworkOutput("network", height = "750px")
+    )
+  )
+)
+
+server <- function(input, output, session) {
+  
+
+  filtered_edges <- reactive({
+    edges
+  })
+  
+
+  filtered_nodes <- reactive({
+    nodes_by_role <- nodes %>%
+      filter(role %in% input$selectedRoles)
+    
+    valid_ids <- unique(c(filtered_edges()$Source, filtered_edges()$Target))
+    nodes_by_role %>% filter(Id %in% valid_ids)
+  })
+  
+
+  output$stats <- renderPrint({
+    fn <- filtered_nodes()
+    fe <- filtered_edges() %>%
+      filter(Source %in% fn$Id & Target %in% fn$Id)
+    
+    cat(sprintf("Nodes: %d\n", nrow(fn)))
+    cat(sprintf("Edges: %d\n", nrow(fe)))
+    
+    if (nrow(fn) > 1 & nrow(fe) > 0) {
+      g_filtered <- graph_from_data_frame(fe, directed = FALSE, vertices = fn)
+      density <- round(graph.density(g_filtered), 3)
+      cat(sprintf("Density: %s\n", density))
+    }
+  })
+  
+
+  output$network <- renderVisNetwork({
+    
+    fn <- filtered_nodes()
+    fe <- filtered_edges() %>%
+      filter(Source %in% fn$Id & Target %in% fn$Id)
+    
+
+    role_colors <- c(
+      "Detective" = "#FF6B6B",
+      "Murderer" = "#4ECDC4",
+      "Other" = "#95E1D3"
+    )
+    
+    vn_nodes <- fn %>%
+      transmute(
+        id = Id,
+        label = Label,
+        group = role,
+        value = degree + 8,
+        color = role_colors[role],
+        title = paste0(
+          "<b>", Label, "</b><br>",
+          "Role: ", role, "<br>",
+          "Connections: ", degree
+        )
+      )
+    
+   vn_edges <- fe %>%
+      transmute(
+        from = Source,
+        to = Target,
+        value = Weight,
+        width = Weight * 0.8,
+        title = paste0("Co-appea red in ", Weight, " chapters")
+      )
+    
+    visNetwork(vn_nodes, vn_edges) %>%
+      visNodes(
+        shape = "dot",
+        shadow = list(enabled = TRUE, size = 10)
+      ) %>%
+      visEdges(
+        smooth = list(type = "continuous"),
+        arrows = "none"
+      ) %>%
+      visPhysics(
+        enabled = TRUE,
+        barnesHut = list(
+          gravitationalConstant = -30000,
+          centralGravity = 0.3,
+          springLength = 200
+        ),
+        stabilization = list(iterations = 200)
+      ) %>%
+      visLayout(randomSeed = 42) %>%
+      visOptions(
+        highlightNearest = list(
+          enabled = TRUE,
+          degree = 1,
+          hover = FALSE
+        ),
+        nodesIdSelection = TRUE
+      ) %>%
+      visInteraction(
+        navigationButtons = TRUE,
+        keyboard = TRUE,
+        zoomView = TRUE,
+        dragView = TRUE
+      )
+  })
+}
+
+shinyApp(ui, server)
